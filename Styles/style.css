@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__img {
+  width: 128px;
+  height: 26px;
+}
+.header__theme {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+.header__theme_text {
+  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  text-align: right;
+}
+.header__theme_icon {
+  width: 20px;
+  height: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 130px 355px;
+}/*# sourceMappingURL=style.css.map */
