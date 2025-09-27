@@ -1,0 +1,32 @@
+.header{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+&__img{
+width: 128px;
+height: 26px;
+}
+
+&__theme {
+display: flex;
+flex-direction: row;
+gap: 16px;
+}
+
+&__theme_text {
+color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+font-family: Space Mono;
+font-size: 13px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 2.5px;
+text-align: right;
+}
+
+&__theme_icon{
+    width: 20px;
+    height: 20px; 
+}
+
+}
