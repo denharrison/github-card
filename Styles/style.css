@@ -13,7 +13,7 @@
   gap: 16px;
 }
 .header__theme_text {
-  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  color: rgb(75, 106, 155);
   font-family: Space Mono;
   font-size: 13px;
   font-weight: 700;
@@ -42,7 +42,7 @@
 }
 .search-input__input {
   width: 80%;
-  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  color: rgb(75, 106, 155);
   font-family: Space Mono;
   font-size: 18px;
   font-weight: 400;
@@ -60,13 +60,13 @@
   border-color: transparent;
   height: 48px;
   border-radius: var(--corner-radius-10, 10px);
-  background: var(--colors-blue-500, rgb(0, 121, 255));
+  background: rgb(0, 121, 255);
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-  color: var(--colors-neutral-0, rgb(255, 255, 255));
+  color: rgb(255, 255, 255);
   font-family: Space Mono;
   font-size: 16px;
   font-weight: 700;
@@ -99,7 +99,7 @@
   padding-top: 48px;
 }
 .profile-section__text {
-  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  color: rgb(75, 106, 155);
   font-family: Space Mono;
   font-size: 15px;
   font-weight: 400;
@@ -114,7 +114,7 @@
   justify-content: space-between;
 }
 .profile-header__reg {
-  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  color: rgb(75, 106, 155);
   font-size: 15px;
   font-family: Space Mono;
   font-weight: 400;
@@ -124,7 +124,7 @@
 }
 
 .user-details__nick {
-  color: var(--colors-neutral-700, rgb(43, 52, 66));
+  color: rgb(43, 52, 66);
   font-family: Space Mono;
   font-size: 26px;
   font-weight: 700;
@@ -133,7 +133,7 @@
   text-align: left;
 }
 .user-details__link {
-  color: var(--colors-blue-500, rgb(0, 121, 255));
+  color: rgb(0, 121, 255);
   font-family: Space Mono;
   font-size: 16px;
   font-weight: 400;
@@ -152,7 +152,7 @@
   padding-left: 32px;
   padding-right: 32px;
   border-radius: 10px;
-  background: var(--colors-neutral-100, rgb(246, 248, 255));
+  background: rgb(246, 248, 255);
 }
 .profile-stats__column {
   display: flex;
@@ -160,7 +160,7 @@
   flex-basis: 138.67px;
 }
 .profile-stats__column-title {
-  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  color: rgb(75, 106, 155);
   font-family: Space Mono;
   font-size: 13px;
   font-weight: 400;
@@ -170,7 +170,7 @@
   padding-bottom: 4px;
 }
 .profile-stats__column-text {
-  color: var(--colors-neutral-700, rgb(43, 52, 66));
+  color: rgb(43, 52, 66);
   font-family: Space Mono;
   font-size: 22px;
   font-weight: 700;
@@ -196,7 +196,7 @@
   flex-basis: 232px;
 }
 .icons__text {
-  color: var(--colors-neutral-500, rgb(75, 106, 155));
+  color: rgb(75, 106, 155);
   font-family: Space Mono;
   font-size: 15px;
   font-weight: 400;

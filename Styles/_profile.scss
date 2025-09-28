@@ -25,7 +25,7 @@
     padding-top: 48px;
 
 &__text{
-    color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+    color:  rgba(75, 106, 155, 1);
     font-family: Space Mono;
     font-size: 15px;
     font-weight: 400;
@@ -43,7 +43,7 @@
    justify-content: space-between;
 
 &__reg{
-     color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+     color:  rgba(75, 106, 155, 1);
      font-size: 15px;
      font-family: Space Mono;
      font-weight: 400;
@@ -57,7 +57,7 @@
 .user-details{ 
 
     &__nick{
-    color: var(--colors-neutral-700, rgba(43, 52, 66, 1));
+    color: rgba(43, 52, 66, 1);;
     font-family: Space Mono;
     font-size: 26px;
     font-weight: 700;
@@ -67,7 +67,7 @@
     }
 
     &__link{
-    color: var(--colors-blue-500, rgba(0, 121, 255, 1));
+    color: rgba(0, 121, 255, 1);
     font-family: Space Mono;
     font-size: 16px;
     font-weight: 400;
@@ -88,7 +88,7 @@
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 10px;
-    background: var(--colors-neutral-100, rgba(246, 248, 255, 1));
+    background: rgba(246, 248, 255, 1);
 
    &__column{
     display: flex;
@@ -96,7 +96,7 @@
     flex-basis: 138.67px;
 
     &-title{
-        color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+        color:  rgba(75, 106, 155, 1);
         font-family: Space Mono;
         font-size: 13px;
         font-weight: 400;
@@ -107,7 +107,7 @@
     }
 
     &-text{
-        color: var(--colors-neutral-700, rgba(43, 52, 66, 1));
+        color: rgba(43, 52, 66, 1);;
         font-family: Space Mono;
         font-size: 22px;
         font-weight: 700;
@@ -137,7 +137,7 @@
     flex-basis: 232px;
 
     &__text{
-      color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+      color: rgba(75, 106, 155, 1);
       font-family: Space Mono;
       font-size: 15px;
       font-weight: 400;
