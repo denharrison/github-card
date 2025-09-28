@@ -18,15 +18,104 @@
 }
 
 .profile-section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    flex-basis: 480px;
+    padding-top: 48px;
+
+&__text{
+    color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+    font-family: Space Mono;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    opacity: 0.75;
+
+}
 
 }
 
 .profile-header{
    display: flex;
-   padding-top: 48px;
    justify-content: space-between;
-    &__reg{
 
+&__reg{
+     color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+     font-size: 15px;
+     font-family: Space Mono;
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0px;
+     text-align: right;
     }
 
 }
+
+.user-details{ 
+
+    &__nick{
+    color: var(--colors-neutral-700, rgba(43, 52, 66, 1));
+    font-family: Space Mono;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    }
+
+    &__link{
+    color: var(--colors-blue-500, rgba(0, 121, 255, 1));
+    font-family: Space Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    }
+
+}
+
+.profile-stats {
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left: 32px;
+    padding-right: 32px;
+    border-radius: 10px;
+    background: var(--colors-neutral-100, rgba(246, 248, 255, 1));
+
+   &__column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 138.67px;
+
+    &-title{
+        color: var(--colors-neutral-500, rgba(75, 106, 155, 1));
+        font-family: Space Mono;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        letter-spacing: 0px;
+        text-align: left;
+        padding-bottom: 4px;
+    }
+
+    &-text{
+        color: var(--colors-neutral-700, rgba(43, 52, 66, 1));
+        font-family: Space Mono;
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 33px;
+        letter-spacing: 0px;
+        text-align: left;
+    }
+
+   } 
+}
+
