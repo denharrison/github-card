@@ -25,8 +25,8 @@
     padding-top: 48px;
 
 &__text{
-    color:  rgba(75, 106, 155, 1);
-    font-family: Space Mono;
+    color:  $LightColorText;
+    font-family: $MainFont; 
     font-size: 15px;
     font-weight: 400;
     line-height: 22px;
@@ -43,9 +43,9 @@
    justify-content: space-between;
 
 &__reg{
-     color: $color-link; 
+     color: $LightColorText; 
      font-size: 15px;
-     font-family: Space Mono;
+     font-family: $MainFont; 
      font-weight: 400;
      line-height: 22px;
      letter-spacing: 0px;
@@ -58,7 +58,7 @@
 
     &__nick{
     color: $color-black;;
-    font-family: Space Mono;
+    font-family: $MainFont; 
     font-size: 26px;
     font-weight: 700;
     line-height: 39px;
@@ -67,8 +67,8 @@
     }
 
     &__link{
-    color: rgba(0, 121, 255, 1);
-    font-family: Space Mono;
+    color: $LightLinkText;
+    font-family: $MainFont; 
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
@@ -88,7 +88,7 @@
     padding-left: 32px;
     padding-right: 32px;
     border-radius: 10px;
-    background: rgba(246, 248, 255, 1);
+    background: $LightMainTheme;
 
    &__column{
     display: flex;
@@ -96,8 +96,8 @@
     flex-basis: 138.67px;
 
     &-title{
-        color:  rgba(75, 106, 155, 1);
-        font-family: Space Mono;
+        color:  $LightColorText;
+        font-family: $MainFont; 
         font-size: 13px;
         font-weight: 400;
         line-height: 19px;
@@ -108,7 +108,7 @@
 
     &-text{
         color: $color-black;;
-        font-family: Space Mono;
+        font-family: $MainFont; 
         font-size: 22px;
         font-weight: 700;
         line-height: 33px;
@@ -137,8 +137,8 @@
     flex-basis: 232px;
 
     &__text{
-      color: rgba(75, 106, 155, 1);
-      font-family: Space Mono;
+      color: $LightColorText;
+      font-family: $MainFont; 
       font-size: 15px;
       font-weight: 400;
       line-height: 22px;

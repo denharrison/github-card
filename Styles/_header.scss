@@ -15,8 +15,8 @@ gap: 16px;
 }
 
 &__theme_text {
-color: rgba(75, 106, 155, 1);
-font-family: Space Mono;
+color: $LightColorText;
+font-family: $MainFont; ;
 font-size: 13px;
 font-weight: 700;
 line-height: 19px;
