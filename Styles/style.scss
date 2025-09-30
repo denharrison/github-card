@@ -1,3 +1,5 @@
+@import 'vars';
+
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +7,10 @@
 
 .container {
 margin: 130px 355px;
-background-color: $LightMainTheme;
 }
 
-@import 'vars';
 @import 'header';
 @import 'search-form';
 @import 'profile';
 @import 'tablet';
-@import 'mobile';
+@import 'mobile'; 
