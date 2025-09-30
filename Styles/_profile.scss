@@ -1,7 +1,56 @@
-.profileMobile{
+.profile-mobile{
     display: none;
 }
 
+.mobile{
+
+    &-img{
+     align-self: flex-start;
+
+    }
+
+    &-header{
+     display: flex;
+     justify-content: space-between;
+
+
+    }
+}
+
+.user-details-mob{
+
+    &__nick{
+    color: $color-black;;
+    font-family: $MainFont; 
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    }
+
+    &__link{
+    color: $LightLinkText;
+    font-family: $MainFont; 
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    padding-bottom: 4px;
+    text-align: left;
+    }
+    
+    &__reg{
+     color: $LightColorText; 
+     font-size: 15px;
+     font-family: $MainFont; 
+     font-weight: 400;
+     line-height: 22px;
+     letter-spacing: 0px;
+     text-align: left;
+     }
+
+}
 
 .profile{
     display: flex;
@@ -46,7 +95,7 @@
    display: flex;
    justify-content: space-between;
 
-&__reg{
+   &__reg{
      color: $LightColorText; 
      font-size: 15px;
      font-family: $MainFont; 

@@ -20,6 +20,39 @@
     }
 }
 
+.profile{
+flex-direction: column;
+height: 612px;
+gap: 24px;
 
+
+    &__img{
+        display: none;
+    }
+    &-header{
+        display: none;
+    }
+    &-section{
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+    }
+    &-stats{
+    height: 225px;    
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 16px;
+    align-items: flex-start;
+    }
+}
+
+.profile-mobile {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 24px;
+    padding-top: 32px;
+    box-sizing: border-box;
+}
 
 }
