@@ -1,4 +1,10 @@
 @import 'vars';
+@import 'header';
+@import 'search-form';
+@import 'profile';
+@import 'tablet';
+@import 'mobile'; 
+
 
 *{
     margin: 0;
@@ -9,8 +15,3 @@
 margin: 130px 355px;
 }
 
-@import 'header';
-@import 'search-form';
-@import 'profile';
-@import 'tablet';
-@import 'mobile'; 

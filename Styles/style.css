@@ -1,12 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  margin: 130px 355px;
-}
-
 .header {
   display: flex;
   flex-direction: row;
@@ -15,11 +6,20 @@
 .header__img {
   width: 128px;
   height: 26px;
+  fill: rgb(20, 29, 47);
 }
 .header__theme {
   display: flex;
   flex-direction: row;
   gap: 16px;
+  color: rgb(75, 106, 155);
+  fill: rgb(75, 106, 155);
+}
+.header__theme:hover .header__theme_text {
+  color: rgb(43, 52, 66);
+}
+.header__theme:hover .header__theme_icon path {
+  color: rgb(43, 52, 66);
 }
 .header__theme_text {
   color: rgb(75, 106, 155);
@@ -30,17 +30,10 @@
   letter-spacing: 2.5px;
   text-decoration: none;
   text-align: right;
-  color: rgb(75, 106, 155);
-}
-.header__theme_text:hover {
-  color: rgb(43, 52, 66);
 }
 .header__theme_icon {
   width: 20px;
   height: 20px;
-}
-.header__theme_icon:hover {
-  fill: rgb(43, 52, 66);
 }
 
 .search-form {
@@ -91,6 +84,10 @@
   line-height: 24px;
   letter-spacing: 0px;
   text-align: left;
+}
+.search-input__button:hover {
+  background-color: rgb(96, 171, 255);
+  cursor: pointer;
 }
 
 .profile {
@@ -222,6 +219,20 @@
   text-align: left;
   padding-left: 16px;
 }
+.icons__text_link {
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 16px;
+}
+.icons__text_link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
   .container {
@@ -259,4 +270,12 @@
   .user-details {
     flex-direction: column;
   }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 130px 355px;
 }/*# sourceMappingURL=style.css.map */

@@ -6,13 +6,24 @@ justify-content: space-between;
 &__img{
 width: 128px;
 height: 26px;
+fill: rgba(20, 29, 47, 1)
 }
 
 &__theme {
 display: flex;
 flex-direction: row;
 gap: 16px;
+color: rgb(75, 106, 155);
+fill: rgb(75, 106, 155);
+
+    &:hover .header__theme_text{
+    color: rgba(43, 52, 66, 1);
 }
+    &:hover .header__theme_icon path { 
+     color: rgba(43, 52, 66, 1) ;
+     }
+}
+
 
 &__theme_text {
 color: $LightColorText;
@@ -23,11 +34,6 @@ line-height: 19px;
 letter-spacing: 2.5px;
 text-decoration: none;
 text-align: right;
-color: rgb(75, 106, 155);
-}
-
-&__theme_text:hover{
-color: rgba(43, 52, 66, 1);
 }
 
 
@@ -36,9 +42,6 @@ color: rgba(43, 52, 66, 1);
     height: 20px; 
 }
 
-&__theme_icon:hover{
-    fill: rgba(43, 52, 66, 1);
-}
 
 
 
