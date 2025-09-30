@@ -90,6 +90,10 @@
   cursor: pointer;
 }
 
+.profileMobile {
+  display: none;
+}
+
 .profile {
   display: flex;
   justify-content: flex-start;
@@ -253,22 +257,6 @@
   .search-input__input {
     font-size: 13px;
     line-height: 19px;
-  }
-  .profile {
-    padding-top: 32px;
-    gap: 20px;
-    height: 612px;
-  }
-  .profile__img {
-    padding-left: 24px;
-    padding-top: 32px;
-  }
-  .profile-header {
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
-  .user-details {
-    flex-direction: column;
   }
 }
 * {
