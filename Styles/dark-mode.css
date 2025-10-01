@@ -19,6 +19,35 @@ a:focus {
   margin: 130px 355px;
 }
 
+.error-section {
+  height: 189px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  background-color: rgba(30, 42, 71, 1);
+  gap: 16px;
+}
+.error-section__title {
+  color: rgba(255, 255, 255, 1);
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.error-section__text {
+  color: rgba(144, 164, 212, 1);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
 .header {
   display: flex;
   flex-direction: row;
