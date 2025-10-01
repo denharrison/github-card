@@ -1,0 +1,20 @@
+@import 'vars';
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+margin: 130px 355px;
+}
+
+@import 'error';
+@import 'header';
+@import 'search-form';
+@import 'profile';
+@import 'tablet';
+@import 'mobile'; 

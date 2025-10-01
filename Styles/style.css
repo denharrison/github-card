@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 130px 355px;
+}
+
+.error-section {
+  height: 189px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  background: rgb(255, 255, 255);
+  gap: 16px;
+}
+.error-section__title {
+  color: rgb(43, 52, 66);
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+.error-section__text {
+  color: rgb(105, 124, 154);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header__img {
+  width: 128px;
+  height: 26px;
+  fill: rgb(20, 29, 47);
+}
+.header__theme {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  color: rgb(75, 106, 155);
+  fill: rgb(75, 106, 155);
+}
+.header__theme:hover .header__theme_text {
+  color: rgb(43, 52, 66);
+}
+.header__theme:hover .header__theme_icon path {
+  color: rgb(43, 52, 66);
+}
+.header__theme_text {
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2.5px;
+  text-decoration: none;
+  text-align: right;
+}
+.header__theme_icon {
+  width: 20px;
+  height: 20px;
+}
+
+.search-form {
+  padding-top: 40px;
+}
+
+.search-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 69px;
+  border-radius: var(--corner-radius-16, 16px);
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  margin-bottom: 40px;
+}
+.search-input__input {
+  width: 80%;
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0px;
+  text-align: left;
+  border-color: transparent;
+}
+.search-input__img {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.search-input__button {
+  width: 107px;
+  border-color: transparent;
+  height: 48px;
+  border-radius: var(--corner-radius-10, 10px);
+  background: rgb(0, 121, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.search-input__button:hover {
+  background-color: rgb(96, 171, 255);
+  cursor: pointer;
+}
+
+.profile-mobile {
+  display: none;
+}
+
+.mobile-img {
+  align-self: flex-start;
+}
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-details-mob__nick {
+  color: rgb(43, 52, 66);
+  font-family: Space Mono;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.user-details-mob__link {
+  color: rgb(0, 121, 255);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding-bottom: 4px;
+  text-align: left;
+}
+.user-details-mob__reg {
+  color: rgb(75, 106, 155);
+  font-size: 15px;
+  font-family: Space Mono;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.profile {
+  display: flex;
+  justify-content: flex-start;
+  gap: 32px;
+  border-radius: 15px;
+  box-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
+  background: var(--colors-neutral-0, rgb(255, 255, 255));
+  height: 395px;
+}
+.profile__img {
+  align-self: flex-start;
+  padding-left: 48px;
+  padding-top: 48px;
+}
+
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  flex-basis: 480px;
+  padding-top: 48px;
+}
+.profile-section__text {
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  opacity: 0.75;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+}
+.profile-header__reg {
+  color: rgb(75, 106, 155);
+  font-size: 15px;
+  font-family: Space Mono;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: right;
+}
+
+.user-details__nick {
+  color: rgb(43, 52, 66);
+  font-family: Space Mono;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.user-details__link {
+  color: rgb(0, 121, 255);
+  font-family: Space Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.profile-stats {
+  height: 85px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 10px;
+  background: rgb(246, 248, 255);
+}
+.profile-stats__column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 138.67px;
+}
+.profile-stats__column-title {
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-bottom: 4px;
+}
+.profile-stats__column-text {
+  color: rgb(43, 52, 66);
+  font-family: Space Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 33px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.links-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-basis: 232px;
+}
+.icons__text {
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 16px;
+}
+.icons__text_link {
+  color: rgb(75, 106, 155);
+  font-family: Space Mono;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  padding-left: 16px;
+}
+.icons__text_link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin: 40px 32px;
+  }
+}
+@media (max-width: 767px) {
+  .container {
+    margin: 32px 16px;
+  }
+  .search-form {
+    padding-top: 32px;
+  }
+  .search-input__img {
+    padding-left: 12px;
+    padding-right: 8px;
+  }
+  .search-input__input {
+    font-size: 13px;
+    line-height: 19px;
+  }
+  .profile {
+    flex-direction: column;
+    height: 612px;
+    gap: 24px;
+  }
+  .profile__img {
+    display: none;
+  }
+  .profile-header {
+    display: none;
+  }
+  .profile-section {
+    padding-top: 0px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .profile-stats {
+    height: 225px;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-top: 16px;
+    align-items: flex-start;
+  }
+  .profile-mobile {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 24px;
+    padding-top: 32px;
+    box-sizing: border-box;
+  }
+}/*# sourceMappingURL=style.css.map */
